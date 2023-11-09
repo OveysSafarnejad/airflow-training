@@ -1,0 +1,58 @@
+[2023-11-06T12:08:09.742+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: catchup_and_backfill_dag.task_a scheduled__2023-11-05T00:00:00+00:00 [queued]>
+[2023-11-06T12:08:09.760+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: catchup_and_backfill_dag.task_a scheduled__2023-11-05T00:00:00+00:00 [queued]>
+[2023-11-06T12:08:09.761+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-11-06T12:08:09.791+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): task_a> on 2023-11-05 00:00:00+00:00
+[2023-11-06T12:08:09.800+0000] {standard_task_runner.py:57} INFO - Started process 1057 to run task
+[2023-11-06T12:08:09.806+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'catchup_and_backfill_dag', 'task_a', 'scheduled__2023-11-05T00:00:00+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/catchup_and_backfill_dag.py', '--cfg-path', '/tmp/tmpb8ebo_bd']
+[2023-11-06T12:08:09.813+0000] {standard_task_runner.py:85} INFO - Job 126: Subtask task_a
+[2023-11-06T12:08:09.922+0000] {task_command.py:416} INFO - Running <TaskInstance: catchup_and_backfill_dag.task_a scheduled__2023-11-05T00:00:00+00:00 [running]> on host cf1baac588aa
+[2023-11-06T12:08:10.056+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='safarnejad' AIRFLOW_CTX_DAG_ID='catchup_and_backfill_dag' AIRFLOW_CTX_TASK_ID='task_a' AIRFLOW_CTX_EXECUTION_DATE='2023-11-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-05T00:00:00+00:00'
+[2023-11-06T12:08:10.058+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-11-06T12:08:10.059+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo Hello World :)']
+[2023-11-06T12:08:10.070+0000] {subprocess.py:86} INFO - Output:
+[2023-11-06T12:08:10.073+0000] {subprocess.py:93} INFO - /bin/bash: -c: line 1: syntax error near unexpected token `)'
+[2023-11-06T12:08:10.074+0000] {subprocess.py:93} INFO - /bin/bash: -c: line 1: `echo Hello World :)'
+[2023-11-06T12:08:10.075+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2023-11-06T12:08:10.090+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2023-11-06T12:08:10.097+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=catchup_and_backfill_dag, task_id=task_a, execution_date=20231105T000000, start_date=20231106T120809, end_date=20231106T120810
+[2023-11-06T12:08:10.114+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 126 for task task_a (Bash command failed. The command returned a non-zero exit code 2.; 1057)
+[2023-11-06T12:08:10.143+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-06T12:08:10.166+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-11-06T12:19:13.501+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: catchup_and_backfill_dag.task_a scheduled__2023-11-05T00:00:00+00:00 [queued]>
+[2023-11-06T12:19:13.519+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: catchup_and_backfill_dag.task_a scheduled__2023-11-05T00:00:00+00:00 [queued]>
+[2023-11-06T12:19:13.520+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-11-06T12:19:13.550+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): task_a> on 2023-11-05 00:00:00+00:00
+[2023-11-06T12:19:13.558+0000] {standard_task_runner.py:57} INFO - Started process 2111 to run task
+[2023-11-06T12:19:13.563+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'catchup_and_backfill_dag', 'task_a', 'scheduled__2023-11-05T00:00:00+00:00', '--job-id', '182', '--raw', '--subdir', 'DAGS_FOLDER/catchup_and_backfill_dag.py', '--cfg-path', '/tmp/tmp_xq6_x1o']
+[2023-11-06T12:19:13.570+0000] {standard_task_runner.py:85} INFO - Job 182: Subtask task_a
+[2023-11-06T12:19:13.653+0000] {task_command.py:416} INFO - Running <TaskInstance: catchup_and_backfill_dag.task_a scheduled__2023-11-05T00:00:00+00:00 [running]> on host cf1baac588aa
+[2023-11-06T12:19:13.832+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='safarnejad' AIRFLOW_CTX_DAG_ID='catchup_and_backfill_dag' AIRFLOW_CTX_TASK_ID='task_a' AIRFLOW_CTX_EXECUTION_DATE='2023-11-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-05T00:00:00+00:00'
+[2023-11-06T12:19:13.834+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-11-06T12:19:13.835+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo Hello World.']
+[2023-11-06T12:19:13.849+0000] {subprocess.py:86} INFO - Output:
+[2023-11-06T12:19:13.852+0000] {subprocess.py:93} INFO - Hello World.
+[2023-11-06T12:19:13.852+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-11-06T12:19:13.891+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=catchup_and_backfill_dag, task_id=task_a, execution_date=20231105T000000, start_date=20231106T121913, end_date=20231106T121913
+[2023-11-06T12:19:13.938+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-06T12:19:13.963+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-11-06T12:19:44.949+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: catchup_and_backfill_dag.task_a scheduled__2023-11-05T00:00:00+00:00 [queued]>
+[2023-11-06T12:19:44.965+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: catchup_and_backfill_dag.task_a scheduled__2023-11-05T00:00:00+00:00 [queued]>
+[2023-11-06T12:19:44.966+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-11-06T12:19:44.985+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): task_a> on 2023-11-05 00:00:00+00:00
+[2023-11-06T12:19:44.990+0000] {standard_task_runner.py:57} INFO - Started process 2152 to run task
+[2023-11-06T12:19:44.995+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'catchup_and_backfill_dag', 'task_a', 'scheduled__2023-11-05T00:00:00+00:00', '--job-id', '183', '--raw', '--subdir', 'DAGS_FOLDER/catchup_and_backfill_dag.py', '--cfg-path', '/tmp/tmpzq4_pjj3']
+[2023-11-06T12:19:44.999+0000] {standard_task_runner.py:85} INFO - Job 183: Subtask task_a
+[2023-11-06T12:19:45.083+0000] {task_command.py:416} INFO - Running <TaskInstance: catchup_and_backfill_dag.task_a scheduled__2023-11-05T00:00:00+00:00 [running]> on host cf1baac588aa
+[2023-11-06T12:19:45.209+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='safarnejad' AIRFLOW_CTX_DAG_ID='catchup_and_backfill_dag' AIRFLOW_CTX_TASK_ID='task_a' AIRFLOW_CTX_EXECUTION_DATE='2023-11-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-05T00:00:00+00:00'
+[2023-11-06T12:19:45.211+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-11-06T12:19:45.212+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo Hello World.']
+[2023-11-06T12:19:45.224+0000] {subprocess.py:86} INFO - Output:
+[2023-11-06T12:19:45.228+0000] {subprocess.py:93} INFO - Hello World.
+[2023-11-06T12:19:45.229+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-11-06T12:19:45.272+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=catchup_and_backfill_dag, task_id=task_a, execution_date=20231105T000000, start_date=20231106T121944, end_date=20231106T121945
+[2023-11-06T12:19:45.329+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-06T12:19:45.360+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

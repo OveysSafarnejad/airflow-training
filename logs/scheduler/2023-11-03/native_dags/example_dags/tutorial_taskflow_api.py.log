@@ -1,0 +1,12 @@
+[2023-11-03T17:42:55.305+0100] {processor.py:157} INFO - Started process (PID=12176) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-03T17:42:55.312+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-03T17:42:55.313+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:42:55.313+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-03T17:42:55.397+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-03T17:42:56.242+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:42:56.242+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:42:56.251+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:42:56.251+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:42:56.260+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:42:56.260+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:42:56.261+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:42:56.261+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:tutorial_taskflow_api' as access control is unset.
+[2023-11-03T17:42:56.261+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:42:56.261+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-03T17:42:56.273+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:42:56.273+0100] {dag.py:2937} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2023-11-03T17:42:56.274+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:42:56.274+0100] {dag.py:3696} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-03T17:42:56.294+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.990 seconds

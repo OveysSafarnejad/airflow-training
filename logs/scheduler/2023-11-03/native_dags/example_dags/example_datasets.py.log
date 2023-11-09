@@ -1,0 +1,42 @@
+[2023-11-03T17:55:55.763+0100] {processor.py:157} INFO - Started process (PID=12390) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2023-11-03T17:55:55.767+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2023-11-03T17:55:55.768+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:55.767+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2023-11-03T17:55:55.795+0100] {processor.py:839} INFO - DAG(s) dict_keys(['dataset_consumes_1_never_scheduled', 'dataset_consumes_1', 'dataset_produces_1', 'dataset_consumes_unknown_never_scheduled', 'dataset_produces_2', 'dataset_consumes_1_and_2']) retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2023-11-03T17:55:56.308+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.308+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.317+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.317+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.323+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.323+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.324+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.324+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_consumes_1_never_scheduled' as access control is unset.
+[2023-11-03T17:55:56.338+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.337+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.344+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.344+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.351+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.350+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.351+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.351+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_consumes_1' as access control is unset.
+[2023-11-03T17:55:56.362+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.362+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.367+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.367+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.373+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.372+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.373+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.373+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_produces_1' as access control is unset.
+[2023-11-03T17:55:56.384+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.384+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.391+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.390+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.397+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.397+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.398+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.397+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_consumes_unknown_never_scheduled' as access control is unset.
+[2023-11-03T17:55:56.411+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.411+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.418+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.418+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.424+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.424+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.425+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.425+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_produces_2' as access control is unset.
+[2023-11-03T17:55:56.438+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.437+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.444+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.444+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.450+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.450+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:56.451+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.450+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_consumes_1_and_2' as access control is unset.
+[2023-11-03T17:55:56.451+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.451+0100] {dag.py:2915} INFO - Sync 6 DAGs
+[2023-11-03T17:55:56.463+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.463+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_consumes_unknown_never_scheduled
+[2023-11-03T17:55:56.464+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.464+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_consumes_1_never_scheduled
+[2023-11-03T17:55:56.464+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.464+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_consumes_1
+[2023-11-03T17:55:56.465+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.465+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_consumes_1_and_2
+[2023-11-03T17:55:56.465+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.465+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_produces_2
+[2023-11-03T17:55:56.466+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.466+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_produces_1
+[2023-11-03T17:55:56.473+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.473+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2023-11-03T17:55:56.474+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.474+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2023-11-03T17:55:56.474+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.474+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2023-11-03T17:55:56.475+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.475+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2023-11-03T17:55:56.476+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.476+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_produces_1 to 2023-11-02T00:00:00+00:00, run_after=2023-11-03T00:00:00+00:00
+[2023-11-03T17:55:56.477+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:56.477+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2023-11-03T17:55:56.504+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py took 0.742 seconds

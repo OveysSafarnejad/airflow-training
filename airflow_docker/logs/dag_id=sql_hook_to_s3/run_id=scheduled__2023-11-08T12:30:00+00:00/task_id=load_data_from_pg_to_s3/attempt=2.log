@@ -1,0 +1,15 @@
+[2023-11-08T14:40:10.046+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sql_hook_to_s3.load_data_from_pg_to_s3 scheduled__2023-11-08T12:30:00+00:00 [queued]>
+[2023-11-08T14:40:10.080+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sql_hook_to_s3.load_data_from_pg_to_s3 scheduled__2023-11-08T12:30:00+00:00 [queued]>
+[2023-11-08T14:40:10.082+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 6
+[2023-11-08T14:40:10.119+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): load_data_from_pg_to_s3> on 2023-11-08 12:30:00+00:00
+[2023-11-08T14:40:10.127+0000] {standard_task_runner.py:57} INFO - Started process 1292 to run task
+[2023-11-08T14:40:10.136+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'sql_hook_to_s3', 'load_data_from_pg_to_s3', 'scheduled__2023-11-08T12:30:00+00:00', '--job-id', '201', '--raw', '--subdir', 'DAGS_FOLDER/sql_hook_to_s3_dag.py', '--cfg-path', '/tmp/tmpg_fe53l9']
+[2023-11-08T14:40:10.142+0000] {standard_task_runner.py:85} INFO - Job 201: Subtask load_data_from_pg_to_s3
+[2023-11-08T14:40:10.240+0000] {task_command.py:416} INFO - Running <TaskInstance: sql_hook_to_s3.load_data_from_pg_to_s3 scheduled__2023-11-08T12:30:00+00:00 [running]> on host 5cb9101badf1
+[2023-11-08T14:40:10.427+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='safarnejad.ho@gmail.com' AIRFLOW_CTX_DAG_OWNER='safarnejad' AIRFLOW_CTX_DAG_ID='sql_hook_to_s3' AIRFLOW_CTX_TASK_ID='load_data_from_pg_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2023-11-08T12:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-08T12:30:00+00:00'
+[2023-11-08T14:40:10.445+0000] {base.py:73} INFO - Using connection ID 'orders-pg-conn' for task execution.
+[2023-11-08T14:40:10.472+0000] {sql_hook_to_s3_dag.py:32} INFO - Saved orders to orders.txt file.
+[2023-11-08T14:40:10.473+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-08T14:40:10.501+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=sql_hook_to_s3, task_id=load_data_from_pg_to_s3, execution_date=20231108T123000, start_date=20231108T144010, end_date=20231108T144010
+[2023-11-08T14:40:10.553+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-08T14:40:10.622+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

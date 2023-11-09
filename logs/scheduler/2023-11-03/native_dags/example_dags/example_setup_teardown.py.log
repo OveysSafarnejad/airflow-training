@@ -1,0 +1,12 @@
+[2023-11-03T17:43:48.193+0100] {processor.py:157} INFO - Started process (PID=12281) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T17:43:48.197+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-11-03T17:43:48.198+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:48.198+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T17:43:48.229+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown']) retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-11-03T17:43:48.879+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:48.879+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:43:48.888+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:48.888+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:43:48.895+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:48.895+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:43:48.895+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:48.895+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_setup_teardown' as access control is unset.
+[2023-11-03T17:43:48.896+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:48.896+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-03T17:43:48.908+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:48.907+0100] {dag.py:2937} INFO - Creating ORM DAG for example_setup_teardown
+[2023-11-03T17:43:48.916+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:48.915+0100] {dag.py:3696} INFO - Setting next_dagrun for example_setup_teardown to 2023-11-02T16:43:48.915769+00:00, run_after=2023-11-03T16:43:48.915769+00:00
+[2023-11-03T17:43:48.933+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.741 seconds

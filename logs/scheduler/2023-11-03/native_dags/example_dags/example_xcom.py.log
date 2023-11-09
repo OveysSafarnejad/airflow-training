@@ -1,0 +1,12 @@
+[2023-11-03T17:43:09.276+0100] {processor.py:157} INFO - Started process (PID=12204) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-03T17:43:09.281+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-11-03T17:43:09.282+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:09.282+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-03T17:43:09.353+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-03T17:43:10.074+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:10.074+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:43:10.084+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:10.084+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:43:10.092+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:10.092+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:43:10.093+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:10.092+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_xcom' as access control is unset.
+[2023-11-03T17:43:10.093+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:10.093+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-03T17:43:10.104+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:10.103+0100] {dag.py:2937} INFO - Creating ORM DAG for example_xcom
+[2023-11-03T17:43:10.114+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:10.113+0100] {dag.py:3696} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-11-03T17:43:10.133+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.857 seconds

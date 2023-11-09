@@ -1,0 +1,44 @@
+[2023-11-04T16:42:48.819+0100] {processor.py:157} INFO - Started process (PID=3336) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:42:48.824+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-04T16:42:48.824+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:42:48.824+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:42:48.879+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:42:48.878+0100] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-04T16:42:48.879+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:42:48.879+0100] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-04T16:42:48.879+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:42:48.996+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.177 seconds
+[2023-11-04T16:44:34.207+0100] {processor.py:157} INFO - Started process (PID=3684) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:44:34.212+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-04T16:44:34.213+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:44:34.212+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:44:34.263+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:44:34.262+0100] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-04T16:44:34.263+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:44:34.263+0100] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-04T16:44:34.263+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:44:34.378+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.172 seconds
+[2023-11-04T16:47:13.699+0100] {processor.py:157} INFO - Started process (PID=4225) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:47:13.704+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-04T16:47:13.705+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:47:13.705+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:47:13.757+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:47:13.757+0100] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-04T16:47:13.758+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:47:13.757+0100] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-04T16:47:13.758+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:47:13.867+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.169 seconds
+[2023-11-04T16:50:08.297+0100] {processor.py:157} INFO - Started process (PID=4845) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:50:08.300+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-11-04T16:50:08.301+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:50:08.301+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:50:08.343+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:50:08.342+0100] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-11-04T16:50:08.343+0100] {logging_mixin.py:151} INFO - [2023-11-04T16:50:08.343+0100] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-11-04T16:50:08.343+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-11-04T16:50:08.438+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.142 seconds

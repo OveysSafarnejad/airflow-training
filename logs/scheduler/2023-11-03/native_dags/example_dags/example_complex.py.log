@@ -1,0 +1,12 @@
+[2023-11-03T17:56:01.282+0100] {processor.py:157} INFO - Started process (PID=12401) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-03T17:56:01.286+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-03T17:56:01.287+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:56:01.287+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-03T17:56:01.315+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-03T17:56:01.843+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:56:01.843+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:56:01.852+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:56:01.852+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:56:01.859+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:56:01.859+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:56:01.859+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:56:01.859+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_complex' as access control is unset.
+[2023-11-03T17:56:01.860+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:56:01.859+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-03T17:56:01.870+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:56:01.870+0100] {dag.py:2937} INFO - Creating ORM DAG for example_complex
+[2023-11-03T17:56:01.871+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:56:01.871+0100] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-03T17:56:01.889+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.607 seconds

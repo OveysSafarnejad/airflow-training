@@ -1,0 +1,12 @@
+[2023-11-03T19:44:14.864+0100] {processor.py:157} INFO - Started process (PID=12434) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-03T19:44:14.867+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-11-03T19:44:14.868+0100] {logging_mixin.py:151} INFO - [2023-11-03T19:44:14.868+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-03T19:44:14.905+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-03T20:31:38.212+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:38.209+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T20:31:38.220+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:38.220+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T20:31:38.225+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:38.225+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T20:31:38.226+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:38.225+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_branch_operator' as access control is unset.
+[2023-11-03T20:31:38.226+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:38.226+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-03T20:31:38.236+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:38.235+0100] {dag.py:2937} INFO - Creating ORM DAG for example_branch_operator
+[2023-11-03T20:31:38.246+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:38.246+0100] {dag.py:3696} INFO - Setting next_dagrun for example_branch_operator to 2023-11-02T00:00:00+00:00, run_after=2023-11-03T00:00:00+00:00
+[2023-11-03T20:31:38.279+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 12.012 seconds

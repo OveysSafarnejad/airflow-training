@@ -1,0 +1,20 @@
+[2023-11-08T15:17:35.973+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sql_hook_to_s3.load_data_from_pg_to_s3 manual__2023-11-08T14:52:35.114580+00:00 [queued]>
+[2023-11-08T15:17:35.997+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sql_hook_to_s3.load_data_from_pg_to_s3 manual__2023-11-08T14:52:35.114580+00:00 [queued]>
+[2023-11-08T15:17:35.999+0000] {taskinstance.py:1361} INFO - Starting attempt 4 of 9
+[2023-11-08T15:17:36.020+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): load_data_from_pg_to_s3> on 2023-11-08 14:52:35.114580+00:00
+[2023-11-08T15:17:36.025+0000] {standard_task_runner.py:57} INFO - Started process 5206 to run task
+[2023-11-08T15:17:36.030+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'sql_hook_to_s3', 'load_data_from_pg_to_s3', 'manual__2023-11-08T14:52:35.114580+00:00', '--job-id', '210', '--raw', '--subdir', 'DAGS_FOLDER/sql_hook_to_s3_dag.py', '--cfg-path', '/tmp/tmpb_xb0ojs']
+[2023-11-08T15:17:36.034+0000] {standard_task_runner.py:85} INFO - Job 210: Subtask load_data_from_pg_to_s3
+[2023-11-08T15:17:36.102+0000] {task_command.py:416} INFO - Running <TaskInstance: sql_hook_to_s3.load_data_from_pg_to_s3 manual__2023-11-08T14:52:35.114580+00:00 [running]> on host 5cb9101badf1
+[2023-11-08T15:17:36.232+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='safarnejad.ho@gmail.com' AIRFLOW_CTX_DAG_OWNER='safarnejad' AIRFLOW_CTX_DAG_ID='sql_hook_to_s3' AIRFLOW_CTX_TASK_ID='load_data_from_pg_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2023-11-08T14:52:35.114580+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-08T14:52:35.114580+00:00'
+[2023-11-08T15:17:36.243+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+[2023-11-08T15:17:36.256+0000] {base.py:73} INFO - Using connection ID 'orders-pg-conn' for task execution.
+[2023-11-08T15:17:36.271+0000] {sql_hook_to_s3_dag.py:40} INFO - Saved orders to orders_20231108.txt file.
+[2023-11-08T15:17:36.282+0000] {base.py:73} INFO - Using connection ID 'minio-s3' for task execution.
+[2023-11-08T15:17:36.284+0000] {connection_wrapper.py:378} INFO - AWS Connection (conn_id='minio-s3', conn_type='aws') credentials retrieved from login and password.
+[2023-11-08T15:17:36.286+0000] {logging_mixin.py:154} WARNING - <string>:9 AirflowProviderDeprecationWarning: extra['host'] is deprecated and will be removed in a future release. Please set extra['endpoint_url'] instead
+[2023-11-08T15:17:37.013+0000] {sql_hook_to_s3_dag.py:49} INFO - orders file /tmp/tmpikn6pin120231108 has been pushed to S3
+[2023-11-08T15:17:37.016+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-08T15:17:37.036+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=sql_hook_to_s3, task_id=load_data_from_pg_to_s3, execution_date=20231108T145235, start_date=20231108T151735, end_date=20231108T151737
+[2023-11-08T15:17:37.091+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-08T15:17:37.115+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

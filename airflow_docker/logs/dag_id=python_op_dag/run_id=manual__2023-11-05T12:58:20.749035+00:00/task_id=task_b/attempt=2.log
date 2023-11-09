@@ -1,0 +1,22 @@
+[2023-11-05T12:59:24.932+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: python_op_dag.task_b manual__2023-11-05T12:58:20.749035+00:00 [queued]>
+[2023-11-05T12:59:24.947+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: python_op_dag.task_b manual__2023-11-05T12:58:20.749035+00:00 [queued]>
+[2023-11-05T12:59:24.948+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 3
+[2023-11-05T12:59:24.975+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): task_b> on 2023-11-05 12:58:20.749035+00:00
+[2023-11-05T12:59:24.980+0000] {standard_task_runner.py:57} INFO - Started process 5952 to run task
+[2023-11-05T12:59:24.986+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'python_op_dag', 'task_b', 'manual__2023-11-05T12:58:20.749035+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/python_operators_dags.py', '--cfg-path', '/tmp/tmprv_gwimh']
+[2023-11-05T12:59:25.001+0000] {standard_task_runner.py:85} INFO - Job 37: Subtask task_b
+[2023-11-05T12:59:25.080+0000] {task_command.py:416} INFO - Running <TaskInstance: python_op_dag.task_b manual__2023-11-05T12:58:20.749035+00:00 [running]> on host 6f8d85da5f7c
+[2023-11-05T12:59:25.225+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='safarnejad' AIRFLOW_CTX_DAG_ID='python_op_dag' AIRFLOW_CTX_TASK_ID='task_b' AIRFLOW_CTX_EXECUTION_DATE='2023-11-05T12:58:20.749035+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-05T12:58:20.749035+00:00'
+[2023-11-05T12:59:25.226+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/python_operators_dags.py", line 13, in greeting
+    name = ti.xcoms_pull(task_id='task_a')
+AttributeError: 'TaskInstance' object has no attribute 'xcoms_pull'
+[2023-11-05T12:59:25.239+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=python_op_dag, task_id=task_b, execution_date=20231105T125820, start_date=20231105T125924, end_date=20231105T125925
+[2023-11-05T12:59:25.259+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 37 for task task_b ('TaskInstance' object has no attribute 'xcoms_pull'; 5952)
+[2023-11-05T12:59:25.283+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-05T12:59:25.310+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

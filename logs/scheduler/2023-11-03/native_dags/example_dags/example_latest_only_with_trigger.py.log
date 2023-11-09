@@ -1,0 +1,12 @@
+[2023-11-03T17:55:40.314+0100] {processor.py:157} INFO - Started process (PID=12352) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-11-03T17:55:40.325+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-11-03T17:55:40.326+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:40.326+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-11-03T17:55:40.391+0100] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-11-03T17:55:41.277+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:41.277+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:41.285+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:41.284+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:41.290+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:41.290+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:41.291+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:41.290+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:latest_only_with_trigger' as access control is unset.
+[2023-11-03T17:55:41.291+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:41.291+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-03T17:55:41.301+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:41.301+0100] {dag.py:2937} INFO - Creating ORM DAG for latest_only_with_trigger
+[2023-11-03T17:55:41.307+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:41.307+0100] {dag.py:3696} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-11-03T12:55:41.307506+00:00, run_after=2023-11-03T16:55:41.307506+00:00
+[2023-11-03T17:55:41.322+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 1.009 seconds

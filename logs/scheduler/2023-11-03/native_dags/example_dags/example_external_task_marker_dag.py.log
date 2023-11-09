@@ -1,0 +1,18 @@
+[2023-11-03T17:55:47.435+0100] {processor.py:157} INFO - Started process (PID=12372) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-11-03T17:55:47.439+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2023-11-03T17:55:47.439+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:47.439+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-11-03T17:55:47.467+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-11-03T17:55:47.975+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:47.975+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:47.984+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:47.984+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:47.991+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:47.990+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:47.991+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:47.991+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_external_task_marker_parent' as access control is unset.
+[2023-11-03T17:55:48.015+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:48.014+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:48.021+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:48.021+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:48.026+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:48.026+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:55:48.026+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:48.026+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_external_task_marker_child' as access control is unset.
+[2023-11-03T17:55:48.027+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:48.026+0100] {dag.py:2915} INFO - Sync 2 DAGs
+[2023-11-03T17:55:48.037+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:48.036+0100] {dag.py:2937} INFO - Creating ORM DAG for example_external_task_marker_child
+[2023-11-03T17:55:48.037+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:48.037+0100] {dag.py:2937} INFO - Creating ORM DAG for example_external_task_marker_parent
+[2023-11-03T17:55:48.038+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:48.037+0100] {dag.py:3696} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2023-11-03T17:55:48.038+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:55:48.038+0100] {dag.py:3696} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2023-11-03T17:55:48.053+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.619 seconds

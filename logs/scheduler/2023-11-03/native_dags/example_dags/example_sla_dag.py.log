@@ -1,0 +1,12 @@
+[2023-11-03T17:43:33.504+0100] {processor.py:157} INFO - Started process (PID=12252) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-03T17:43:33.509+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-11-03T17:43:33.510+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:33.510+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-03T17:43:33.572+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-03T17:43:34.211+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:34.211+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:43:34.220+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:34.220+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:43:34.227+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:34.227+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T17:43:34.227+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:34.227+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_sla_dag' as access control is unset.
+[2023-11-03T17:43:34.228+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:34.228+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-03T17:43:34.239+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:34.238+0100] {dag.py:2937} INFO - Creating ORM DAG for example_sla_dag
+[2023-11-03T17:43:34.250+0100] {logging_mixin.py:151} INFO - [2023-11-03T17:43:34.250+0100] {dag.py:3696} INFO - Setting next_dagrun for example_sla_dag to 2023-11-03T16:40:00+00:00, run_after=2023-11-03T16:42:00+00:00
+[2023-11-03T17:43:34.266+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.763 seconds

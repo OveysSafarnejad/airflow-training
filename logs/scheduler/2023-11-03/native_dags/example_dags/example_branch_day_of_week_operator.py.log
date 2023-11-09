@@ -1,0 +1,12 @@
+[2023-11-03T20:31:45.429+0100] {processor.py:157} INFO - Started process (PID=12464) to work on /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-11-03T20:31:45.433+0100] {processor.py:829} INFO - Processing file /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-11-03T20:31:45.434+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:45.434+0100] {dagbag.py:539} INFO - Filling up the DagBag from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-11-03T20:31:45.464+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-11-03T20:31:46.031+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:46.031+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T20:31:46.038+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:46.038+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T20:31:46.043+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:46.043+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-03T20:31:46.044+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:46.044+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_weekday_branch_operator' as access control is unset.
+[2023-11-03T20:31:46.044+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:46.044+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-03T20:31:46.055+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:46.054+0100] {dag.py:2937} INFO - Creating ORM DAG for example_weekday_branch_operator
+[2023-11-03T20:31:46.063+0100] {logging_mixin.py:151} INFO - [2023-11-03T20:31:46.063+0100] {dag.py:3696} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-11-02T00:00:00+00:00, run_after=2023-11-03T00:00:00+00:00
+[2023-11-03T20:31:46.077+0100] {processor.py:179} INFO - Processing /Users/audioworkstation/Documents/WORKSPACE/LEARNING/Airflow-Training/.venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.649 seconds

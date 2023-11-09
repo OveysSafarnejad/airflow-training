@@ -1,0 +1,17 @@
+[2023-11-07T16:12:19.001+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: s3_like_object_store_sensor_dag.task_a manual__2023-11-07T16:12:17.401324+00:00 [queued]>
+[2023-11-07T16:12:19.022+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: s3_like_object_store_sensor_dag.task_a manual__2023-11-07T16:12:17.401324+00:00 [queued]>
+[2023-11-07T16:12:19.023+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-07T16:12:19.048+0000] {taskinstance.py:1382} INFO - Executing <Task(S3KeySensor): task_a> on 2023-11-07 16:12:17.401324+00:00
+[2023-11-07T16:12:19.054+0000] {standard_task_runner.py:57} INFO - Started process 2338 to run task
+[2023-11-07T16:12:19.059+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 's3_like_object_store_sensor_dag', 'task_a', 'manual__2023-11-07T16:12:17.401324+00:00', '--job-id', '73', '--raw', '--subdir', 'DAGS_FOLDER/s3_like_object_store_sensor_dag.py', '--cfg-path', '/tmp/tmp8bxqh6dc']
+[2023-11-07T16:12:19.064+0000] {standard_task_runner.py:85} INFO - Job 73: Subtask task_a
+[2023-11-07T16:12:19.135+0000] {task_command.py:416} INFO - Running <TaskInstance: s3_like_object_store_sensor_dag.task_a manual__2023-11-07T16:12:17.401324+00:00 [running]> on host a4689ea3b4a1
+[2023-11-07T16:12:19.262+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='safarnejad' AIRFLOW_CTX_DAG_ID='s3_like_object_store_sensor_dag' AIRFLOW_CTX_TASK_ID='task_a' AIRFLOW_CTX_EXECUTION_DATE='2023-11-07T16:12:17.401324+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-07T16:12:17.401324+00:00'
+[2023-11-07T16:12:19.263+0000] {s3.py:106} INFO - Poking for key : s3://***/requirements.txt
+[2023-11-07T16:12:19.458+0000] {base.py:73} INFO - Using connection ID 'minio-s3' for task execution.
+[2023-11-07T16:12:19.459+0000] {connection_wrapper.py:378} INFO - AWS Connection (conn_id='minio-s3', conn_type='aws') credentials retrieved from login and password.
+[2023-11-07T16:12:19.467+0000] {logging_mixin.py:154} WARNING - <string>:9 AirflowProviderDeprecationWarning: extra['host'] is deprecated and will be removed in a future release. Please set extra['endpoint_url'] instead
+[2023-11-07T16:12:19.984+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-11-07T16:12:20.001+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=s3_like_object_store_sensor_dag, task_id=task_a, execution_date=20231107T161217, start_date=20231107T161219, end_date=20231107T161220
+[2023-11-07T16:12:20.053+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-07T16:12:20.080+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "airflow-training"
+version = "0.1.0"
+description = ""
+authors = ["Oveys Safarnejad <safarnejad@outlook.com>"]
+readme = "README.md"
+packages = [{include = "airflow_training"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+apache-airflow = "^2.7.2"
+apache-airflow-providers-amazon = "^8.10.0"
+apache-airflow-providers-postgres = "^5.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
